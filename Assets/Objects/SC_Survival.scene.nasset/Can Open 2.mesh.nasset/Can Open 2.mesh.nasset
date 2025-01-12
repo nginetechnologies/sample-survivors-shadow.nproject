@@ -1,0 +1,75 @@
+{
+    "guid": "141eb969-7c3c-2efe-06b4-e32a1759d372",
+    "assetTypeGuid": "abcf5a98-c556-41bb-b7ac-a5c6ea9dd85c",
+    "tags": [
+        "3db9a07a-f18a-4fe6-87e9-999ef466091a"
+    ],
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "instanceGuid": "b77678eb-3895-58f2-db02-c1ebf0ab7f40",
+    "data_components": [],
+    "children": [
+        {
+            "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
+            "instanceGuid": "9bf8f239-67f9-22ce-de30-0fffa7b8e803",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Can Open 2 Physics Body"
+                },
+                {
+                    "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
+                    "type": 0
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
+                    "instanceGuid": "8f3dfb90-2a8e-4ad9-6a40-064550c077c8",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Can Open 2 Survival Collider"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+                            "instanceGuid": "5615b114-da86-18c6-5eb9-2e4aba04115d",
+                            "data_components": [
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Can Open 2 Survival"
+                                }
+                            ],
+                            "9f750482-b822-4d4b-be6a-9c135c614328": {
+                                "stages": [
+                                    "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                                    "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                                ]
+                            },
+                            "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                                "mesh": "aae27801-8ac5-1015-9181-30b312721fd3",
+                                "material_instance": "d9fca31c-35af-efc7-16d1-39b532d2ebfb"
+                            }
+                        }
+                    ],
+                    "508647ca-01f3-4930-9e33-4562692b719f": {
+                        "mesh": "aae27801-8ac5-1015-9181-30b312721fd3"
+                    },
+                    "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                        "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7"
+                    }
+                }
+            ]
+        }
+    ],
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "141eb969-7c3c-2efe-06b4-e32a1759d372"
+    },
+    "dependencies": [
+        "d9fca31c-35af-efc7-16d1-39b532d2ebfb",
+        "aae27801-8ac5-1015-9181-30b312721fd3",
+        "db5dc618-2cfe-44e9-a319-69c503d090e7"
+    ],
+    "thumbnailGuid": "c7c337c9-5c79-4058-3366-e00bf7ff00eb"
+}

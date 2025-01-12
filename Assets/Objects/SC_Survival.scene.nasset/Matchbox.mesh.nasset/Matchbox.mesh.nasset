@@ -1,0 +1,75 @@
+{
+    "guid": "5017dec6-8098-1cbf-8834-67371f8f65ef",
+    "assetTypeGuid": "abcf5a98-c556-41bb-b7ac-a5c6ea9dd85c",
+    "tags": [
+        "3db9a07a-f18a-4fe6-87e9-999ef466091a"
+    ],
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "instanceGuid": "1c865624-117c-560d-785a-702395b202ff",
+    "data_components": [],
+    "children": [
+        {
+            "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
+            "instanceGuid": "992e360d-e1a1-8587-a42e-7b6bd55aa2ba",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Matchbox Physics Body"
+                },
+                {
+                    "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
+                    "type": 0
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
+                    "instanceGuid": "ef496b2a-6fd3-c5f8-1cb9-058f446395d0",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Matchbox Survival Collider"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+                            "instanceGuid": "d651b20a-3fe6-48a1-e369-072ce68a7454",
+                            "data_components": [
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Matchbox Survival"
+                                }
+                            ],
+                            "9f750482-b822-4d4b-be6a-9c135c614328": {
+                                "stages": [
+                                    "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                                    "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                                ]
+                            },
+                            "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                                "mesh": "e42f260b-606a-2ae5-2d84-30168f005ae7",
+                                "material_instance": "d9fca31c-35af-efc7-16d1-39b532d2ebfb"
+                            }
+                        }
+                    ],
+                    "508647ca-01f3-4930-9e33-4562692b719f": {
+                        "mesh": "e42f260b-606a-2ae5-2d84-30168f005ae7"
+                    },
+                    "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                        "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7"
+                    }
+                }
+            ]
+        }
+    ],
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "5017dec6-8098-1cbf-8834-67371f8f65ef"
+    },
+    "dependencies": [
+        "d9fca31c-35af-efc7-16d1-39b532d2ebfb",
+        "e42f260b-606a-2ae5-2d84-30168f005ae7",
+        "db5dc618-2cfe-44e9-a319-69c503d090e7"
+    ],
+    "thumbnailGuid": "dd0c6dff-9bfb-bddf-e2e3-6170df0a7696"
+}
